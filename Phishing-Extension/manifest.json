@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "🛡️ Phishing Detector UI",
+  "version": "1.0",
+  "description": "Analyse les URLs en temps réel avec l'Intelligence Artificielle.",
+  "permissions": ["activeTab", "tabs"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

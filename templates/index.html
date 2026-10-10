@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Security Suite - True URL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #00ff66;
+            --glow-color: rgba(0, 255, 102, 0.2);
+            --text-glow: #00ff66;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background-color: #000000; 
+            margin: 0; 
+            padding: 20px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .corner-logo {
+            position: absolute; top: 20px; left: 20px; display: flex; align-items: center; gap: 10px;
+            color: var(--primary-color); font-family: 'Courier New', monospace; font-size: 19px; font-weight: bold;
+            background: rgba(10, 10, 10, 0.85); padding: 10px 18px; border-radius: 6px; border: 1px solid var(--primary-color);
+            text-shadow: 0 0 10px var(--text-glow); box-shadow: 0 0 8px var(--glow-color); z-index: 10;
+        }
+
+        .lang-container { position: absolute; top: 20px; right: 20px; z-index: 10; }
+        .lang-select { background: rgba(10, 10, 10, 0.85); color: var(--primary-color); border: 1px solid var(--primary-color); padding: 10px 15px; border-radius: 6px; font-weight: bold; cursor: pointer; outline: none; font-family: inherit; }
+        
+        .bg-video { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -2; transform: translate(-50%, -50%); object-fit: cover; opacity: 0.55; }
+        .bg-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: -1; }
+        
+        .card { background-color: rgba(10, 10, 10, 0.90); padding: 40px; border-radius: 12px; width: 100%; max-width: 600px; border: 2px solid var(--primary-color); box-sizing: border-box; margin-top: 50px; box-shadow: 0 0 20px var(--glow-color); }
+        
+        .logo-title { text-align: center; font-size: 24px; font-weight: bold; color: var(--primary-color); text-shadow: 0 0 5px var(--text-glow); }
+        .subtitle { color: var(--primary-color); text-align: center; font-size: 14px; font-weight: bold; margin-bottom: 20px; }
+        .banner-img { width: 100%; height: 140px; object-fit: cover; border-radius: 8px; border: 1px solid var(--primary-color); margin-bottom: 25px; }
+
+        .tabs-container { display: flex; background-color: #000000; padding: 5px; border-radius: 8px; margin-bottom: 25px; border: 1px solid var(--primary-color); }
+        .tab-btn { flex: 1; padding: 12px; background: none; border: none; color: var(--primary-color); opacity: 0.7; font-weight: bold; cursor: pointer; border-radius: 6px; transition: 0.3s; font-family: inherit; }
+        .tab-btn.active { background-color: var(--primary-color); color: #000000; opacity: 1; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        input[type="text"], input[type="file"] { width: 100%; padding: 14px; background-color: #050505; border: 1px solid var(--primary-color); border-radius: 6px; color: var(--primary-color); box-sizing: border-box; margin-bottom: 20px; font-size: 15px; font-family: inherit; }
+        button.btn { background-color: #000000; color: var(--primary-color); border: 2px solid var(--primary-color); padding: 14px; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; width: 100%; transition: 0.3s; font-family: inherit; }
+        button.btn:hover { background-color: var(--primary-color); color: #000000; }
+
+        .hacker-loading { display: none; margin-top: 25px; padding: 20px; border: 1px dashed var(--primary-color); background: #050505; text-align: center; font-family: 'Courier New', monospace; color: var(--primary-color); }
+    </style>
+</head>
+<body>
+
+    <div class="corner-logo">
+        <i class="fas fa-shield-virus fa-spin" style="--fa-animation-duration: 5s;"></i> 
+        <span>TRUE URL</span>
+    </div>
+
+    <div class="lang-container">
+        <select id="langSelect" class="lang-select" onchange="changeLanguage()">
+            <option value="fr">🇫🇷 Français</option>
+            <option value="ar">🇲🇦 العربية</option>
+        </select>
+    </div>
+
+    <video autoplay loop muted playsinline class="bg-video">
+        <source src="/static/47802-451812879_medium.mp4" type="video/mp4">
+    </video>
+    <div class="bg-overlay"></div>
+
+    <div class="card">
+        <div class="logo-title" id="mainTitle">⚡ HACKER SECURITY SUITE</div>
+        <div class="subtitle" id="subTitle">[ SYSTEM STATUS: ACTIVE ]</div>
+
+        <img src="/static/OIP.jpg" class="banner-img" alt="Phishing Banner">
+
+        <div style="text-align: right; margin-bottom: 15px;" id="historyBtnWrapper">
+            <a href="/history" id="btnHistory" style="color: var(--primary-color); text-decoration: none; font-weight: bold; border: 1px solid var(--primary-color); padding: 6px 12px; border-radius: 4px; font-size: 13px; background: rgba(0,0,0,0.5); transition: 0.3s;"><i class="fas fa-history"></i> Voir les Logs History</a>
+        </div>
+
+        <div class="tabs-container">
+            <button class="tab-btn active" id="btn-url" onclick="switchTab('url-scanner')">🌐 Scanner d'URL</button>
+            <button class="tab-btn" id="btn-file" onclick="switchTab('file-scanner')">📁 Scanner de Fichier</button>
+        </div>
+
+        <div id="url-scanner" class="tab-content active">
+            <form method="POST" action="/analyze-url" id="urlForm" onsubmit="startAuditAnimation(event)">
+                <input type="text" name="url" id="urlInput" placeholder="Ex: google.com ou badsite.com" required>
+                <button type="submit" class="btn" id="btnUrlSubmit">🔍 Lancer l'Audit Global</button>
+            </form>
+
+            <div id="hackerLoader" class="hacker-loading">
+                <i class="fas fa-terminal fa-spin" style="margin-bottom: 10px; font-size: 24px;"></i>
+                <div id="hackerText">[ INITIALIZING AUDIT... ]</div>
+            </div>
+        </div>
+
+        <div id="file-scanner" class="tab-content">
+            <form method="POST" action="/analyze-file" enctype="multipart/form-data" id="fileForm" onsubmit="startFileAnimation(event)">
+                <label style="display:block; margin-bottom:10px; color: var(--primary-color);" id="lblSelectFile">Sélectionnez une Application (.exe, .apk, .zip) :</label>
+                <input type="file" name="file" id="fileInput" required>
+                <button type="submit" class="btn" id="btnFileSubmit">🚀 Analyser le Fichier</button>
+            </form>
+
+            <div id="fileLoader" class="hacker-loading">
+                <i class="fas fa-microchip fa-spin" style="margin-bottom: 10px; font-size: 24px;"></i>
+                <div id="fileLoaderText">[ EXTRACTING FILE BINARY... ]</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            if(tabId === 'url-scanner') document.getElementById('btn-url').classList.add('active');
+            if(tabId === 'file-scanner') document.getElementById('btn-file').classList.add('active');
+        }
+
+        const translations = {
+            fr: {
+                mainTitle: "⚡ HACKER SECURITY SUITE",
+                subTitle: "[ SYSTEM STATUS: ACTIVE ]",
+                btnHistory: "<i class='fas fa-history'></i> Voir les Logs History",
+                btnUrlTab: "🌐 Scanner d'URL",
+                btnFileTab: "📁 Scanner de Fichier",
+                urlPlaceholder: "Ex: google.com ou badsite.com",
+                btnUrlSubmit: "🔍 Lancer l'Audit Global",
+                lblSelectFile: "Sélectionnez une Application (.exe, .apk, .zip) :",
+                btnFileSubmit: "🚀 Analyser le Fichier",
+                hackerText: "[ INITIALIZING AUDIT... ]",
+                fileLoaderText: "[ EXTRACTING FILE BINARY... ]"
+            },
+            ar: {
+                mainTitle: "⚡ منظومة الفحص الأمني المتقدمة",
+                subTitle: "[ حالة النظام: نشط وجاهز ]",
+                btnHistory: "<i class='fas fa-history'></i> عرض سجل العمليات والأرشيف",
+                btnUrlTab: "🌐 فحص الروابط (URLs)",
+                btnFileTab: "📁 فحص الملفات (Files)",
+                urlPlaceholder: "أدخل الرابط المراد فصحه هنا...",
+                btnUrlSubmit: "🔍 بدء الفحص والتحليل الشامل",
+                lblSelectFile: "اختر ملفاً برمجياً لفحصه (.exe, .apk, .zip) :",
+                btnFileSubmit: "🚀 تشغيل فحص البصمة الرقمية للملف",
+                hackerText: "[ جاري بدء عملية الفحص والتحليل... ]",
+                fileLoaderText: "[ جاري استخراج البصمة الرقمية للملف... ]"
+            }
+        };
+
+        function changeLanguage() {
+            const lang = document.getElementById("langSelect").value;
+            localStorage.setItem("selectedLanguage", lang);
+
+            document.getElementById("mainTitle").innerText = translations[lang].mainTitle;
+            document.getElementById("subTitle").innerText = translations[lang].subTitle;
+            document.getElementById("btnHistory").innerHTML = translations[lang].btnHistory;
+            document.getElementById("btn-url").innerText = translations[lang].btnUrlTab;
+            document.getElementById("btn-file").innerText = translations[lang].btnFileTab;
+            document.getElementById("urlInput").placeholder = translations[lang].urlPlaceholder;
+            document.getElementById("btnUrlSubmit").innerText = translations[lang].btnUrlSubmit;
+            document.getElementById("lblSelectFile").innerText = translations[lang].lblSelectFile;
+            document.getElementById("btnFileSubmit").innerText = translations[lang].btnFileSubmit;
+            document.getElementById("hackerText").innerText = translations[lang].hackerText;
+            document.getElementById("fileLoaderText").innerText = translations[lang].fileLoaderText;
+
+            if (lang === "ar") {
+                document.body.style.direction = "rtl";
+                document.getElementById("historyBtnWrapper").style.textAlign = "left";
+            } else {
+                document.body.style.direction = "ltr";
+                document.getElementById("historyBtnWrapper").style.textAlign = "right";
+            }
+        }
+
+        function startAuditAnimation(e) {
+            e.preventDefault(); 
+            document.getElementById('hackerLoader').style.display = 'block'; 
+            setTimeout(() => { document.getElementById('urlForm').submit(); }, 1200); 
+        }
+
+        function startFileAnimation(e) {
+            e.preventDefault();
+            document.getElementById('fileLoader').style.display = 'block';
+            setTimeout(() => { document.getElementById('fileForm').submit(); }, 1200);
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const savedLang = localStorage.getItem("selectedLanguage") || "fr";
+            document.getElementById("langSelect").value = savedLang;
+            changeLanguage();
+        });
+    </script>
+</body>
+</html>

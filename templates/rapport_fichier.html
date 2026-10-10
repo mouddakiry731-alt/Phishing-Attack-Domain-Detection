@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse Fichier Antivirus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #050b14; margin: 0; padding: 40px; color: #00d2ff; }
+        .card { background-color: #0a192f; padding: 40px; border-radius: 12px; max-width: 800px; margin: auto; border: 2px solid #00d2ff; box-shadow: 0 0 25px rgba(0,210,255,0.2); }
+        .title { font-size: 24px; font-weight: bold; text-align: center; margin-bottom: 25px; border-bottom: 1px dashed #00d2ff; padding-bottom: 15px; color: #fff; }
+        .file-box { background: rgba(0,0,0,0.4); padding: 20px; border-radius: 8px; border: 1px solid #1e3a8a; margin-bottom: 25px; font-family: monospace; }
+        .verdict-box { padding: 25px; border-radius: 8px; text-align: center; margin-bottom: 30px; font-size: 22px; font-weight: bold; }
+        .danger { background: rgba(255,51,51,0.1); border: 2px solid #ff3333; color: #ff3333; }
+        .safe { background: rgba(0,255,102,0.1); border: 2px solid #00ff66; color: #00ff66; }
+        .btn-back { display: block; width: fit-content; margin: 20px auto 0 auto; color: #00d2ff; text-decoration: none; border: 1px solid #00d2ff; padding: 10px 20px; border-radius: 4px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="title"><i class="fas fa-file-shield"></i> INSPECTION ET RECHERCHE DE MALWARE</div>
+        
+        <div class="file-box">
+            <p><strong><i class="fas fa-file"></i> Nom du fichier:</strong> {{ target }}</p>
+            <p><strong><i class="fas fa-weight-hanging"></i> Taille:</strong> {{ length }} Octets</p>
+            <p style="word-break: break-all;"><strong><i class="fas fa-fingerprint"></i> SHA-256 Hash:</strong> {{ file_hash }}</p>
+        </div>
+
+        <div class="verdict-box {% if result == 'FAKE' %}danger{% else %}safe{% endif %}">
+            {% if result == 'FAKE' %}
+                <i class="fas fa-biohazard"></i> ATTENTION : MALWARE DÉTECTÉ !
+            {% else %}
+                <i class="fas fa-shield-cat"></i> FICHIER SAIN : AUCUNE MENACE
+            {% endif %}
+        </div>
+
+        <div style="background: rgba(255,255,255,0.02); padding: 15px; border-radius: 6px;">
+            <h4><i class="fas fa-circle-info"></i> Détails de la Méthode d'analyse :</h4>
+            <p style="color: #ccc; font-size: 14px;">Analyse par comparaison de signature numérique unique (Hash Matching Method) contre la base de données locale des menaces connues.</p>
+        </div>
+
+        <a href="/" class="btn-back"><i class="fas fa-arrow-left"></i> Scanner un autre fichier</a>
+    </div>
+</body>
+</html>

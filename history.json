@@ -1,0 +1,2102 @@
+[
+    {
+        "date": "2026-10-10 09:53:12",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-10-10 09:52:50",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-07-08 22:46:38",
+        "type": "FICHIER",
+        "url": "VirtualBox-7.2.8-173730-Win.exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-07-08 22:44:47",
+        "type": "URL",
+        "url": "https://www.wikipèèedia.org",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-07-08 22:44:06",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-07-04 17:05:07",
+        "type": "FICHIER",
+        "url": "python-3.13.14-amd64 (1).exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-07-04 17:03:32",
+        "type": "EXTENSION",
+        "url": "edge://newtab/",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-07-04 17:02:53",
+        "type": "URL",
+        "url": "http://www.gooogle.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-07-04 17:02:35",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-07-04 17:01:57",
+        "type": "URL",
+        "url": "https://www.google-security.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-07-04 17:01:25",
+        "type": "URL",
+        "url": "https://paypal.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-07-04 17:01:10",
+        "type": "URL",
+        "url": "https://www.service-public.fr",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-07-04 17:00:04",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-29 11:10:58",
+        "type": "EXTENSION",
+        "url": "edge://newtab/",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-29 11:06:08",
+        "type": "URL",
+        "url": "https://www.alibaba.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-29 11:04:50",
+        "type": "FICHIER",
+        "url": "python-3.13.14-amd64 (1).exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-06-29 11:02:42",
+        "type": "URL",
+        "url": "https://www.gfufjoogle.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-29 11:02:20",
+        "type": "URL",
+        "url": "https://www.google.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-29 11:00:01",
+        "type": "URL",
+        "url": "https://www.google.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-26 09:36:31",
+        "type": "URL",
+        "url": "https://www.go0gle.com/",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-26 09:33:51",
+        "type": "EXTENSION",
+        "url": "edge://extensions/",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-26 09:31:52",
+        "type": "FICHIER",
+        "url": "python-3.13.14-amd64 (1).exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-06-26 09:31:16",
+        "type": "URL",
+        "url": "https://githfjub.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-26 09:30:17",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-24 11:50:41",
+        "type": "EXTENSION",
+        "url": "edge://extensions/",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-24 11:48:55",
+        "type": "URL",
+        "url": "https://gitjtihub.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-24 11:47:43",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-24 10:58:41",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-24 10:58:08",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-23 20:53:17",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-23 11:51:52",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-23 11:51:30",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-23 11:50:06",
+        "type": "EXTENSION",
+        "url": "http://127.0.0.1:5000/history",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-23 11:49:22",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-23 11:47:43",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-23 11:47:04",
+        "type": "URL",
+        "url": "http://127.0.0.1:5000",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 20:06:48",
+        "type": "URL",
+        "url": "https://www.wikip0dia.org",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 20:06:12",
+        "type": "URL",
+        "url": "https://www.wikipodia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 20:00:17",
+        "type": "URL",
+        "url": "https://www.wikip0dia.org",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 20:00:04",
+        "type": "URL",
+        "url": "https://www.wikipodia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 19:56:10",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 19:55:56",
+        "type": "URL",
+        "url": "https://www.wikipodia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 19:55:39",
+        "type": "URL",
+        "url": "https://www.wikipodia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 19:46:28",
+        "type": "URL",
+        "url": "https://www.wikurhurip0dia.org",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 19:46:13",
+        "type": "URL",
+        "url": "https://www.wikip0dia.org",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 19:46:02",
+        "type": "URL",
+        "url": "https://www.wikipodia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 19:45:16",
+        "type": "URL",
+        "url": "http://www.microsoft.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 19:32:33",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 19:28:57",
+        "type": "URL",
+        "url": "https://www.gogle.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 19:28:54",
+        "type": "URL",
+        "url": "https://www.gogle.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 19:27:20",
+        "type": "URL",
+        "url": "https://www.gogle.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 18:51:04",
+        "type": "URL",
+        "url": "https://www.google.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 18:45:29",
+        "type": "URL",
+        "url": "http://www.microsoft.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 18:43:16",
+        "type": "URL",
+        "url": "http://www.microsoft.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 18:43:03",
+        "type": "URL",
+        "url": "http://www.rnicrosoft.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 18:40:03",
+        "type": "URL",
+        "url": "https://www.go0gle.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 18:39:34",
+        "type": "URL",
+        "url": "https://www.google.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 15:33:20",
+        "type": "URL",
+        "url": "https://githib.com",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 15:32:14",
+        "type": "URL",
+        "url": "http://g00gle.com/login",
+        "result": "FAKE",
+        "confidence": "94.0%"
+    },
+    {
+        "date": "2026-06-20 15:31:21",
+        "type": "URL",
+        "url": "https://accounts.google.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 15:00:15",
+        "type": "URL",
+        "url": "https://www.torproject.org/thank-you/",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:53:57",
+        "type": "URL",
+        "url": "http://forums56xf3ix34sooaio4x5n275h4i7ktliy4yphhxohuemjpqovrad.onion/account/upgrades",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:53:07",
+        "type": "URL",
+        "url": "https://ahmia.fi/search/redirect?search_term=hiden&redirect_url=http://forums56xf3ix34sooaio4x5n275h4i7ktliy4yphhxohuemjpqovrad.onion/account/upgrades",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:43:36",
+        "type": "URL",
+        "url": "https://githobi.com/",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:40:03",
+        "type": "URL",
+        "url": "https://githob.com/",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:38:57",
+        "type": "URL",
+        "url": "http://www.microsoft.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:35:13",
+        "type": "URL",
+        "url": "http://www.rnicrosoft.com",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:32:40",
+        "type": "URL",
+        "url": "https://www.g0ogle.com/",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:32:05",
+        "type": "URL",
+        "url": "http://www.faceb00k.com",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:31:50",
+        "type": "URL",
+        "url": "http://www.facebook.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:31:14",
+        "type": "URL",
+        "url": "http://www.faceb00k-rnarketplace.com",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:30:21",
+        "type": "URL",
+        "url": "https://accounts.go0gle.com/signin",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:29:57",
+        "type": "URL",
+        "url": "https://www.micro.com/products/download",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:29:33",
+        "type": "URL",
+        "url": "https://micro-security-update.com",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:29:06",
+        "type": "URL",
+        "url": "http://www.rnicro.com/login",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:28:45",
+        "type": "URL",
+        "url": "https://www.micro.com/products/download",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:27:48",
+        "type": "URL",
+        "url": "https://githuyggb.com",
+        "result": "FAKE",
+        "confidence": "93.5%"
+    },
+    {
+        "date": "2026-06-20 14:27:09",
+        "type": "URL",
+        "url": "https://www.facebook.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:18:25",
+        "type": "URL",
+        "url": "https://www.faceb00k.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:18:08",
+        "type": "URL",
+        "url": "https://www.facebo0k.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 14:15:38",
+        "type": "URL",
+        "url": "https://connexion-banque-verification@at-attack-server.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 14:11:16",
+        "type": "URL",
+        "url": "https://connexion-banque-verification@at-attack-server.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 14:09:54",
+        "type": "URL",
+        "url": "https://account.rnicrosoft.com/account",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 14:08:39",
+        "type": "URL",
+        "url": "https://www.wikipodia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:08:10",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:05:48",
+        "type": "URL",
+        "url": "https://www.netflix.com/browse",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:04:33",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 14:04:17",
+        "type": "URL",
+        "url": "https://www.facebook.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 13:59:46",
+        "type": "URL",
+        "url": "https://.commicro",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 13:52:15",
+        "type": "URL",
+        "url": "https://www.facebook.com/profile.php?id=1000&ref=bookmarks",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 13:51:41",
+        "type": "URL",
+        "url": "https://www.facebook.com/profile.php?id=1000&ref=bookmarks",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 13:38:52",
+        "type": "URL",
+        "url": "https://honeypotsfinaf-v-3--dakira956.replit.app",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 13:33:36",
+        "type": "URL",
+        "url": "https://honeypotsfinaf-v-3--dakira956.replit.app",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 13:27:10",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 13:24:35",
+        "type": "URL",
+        "url": "FACEB00K.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 13:23:44",
+        "type": "URL",
+        "url": "FACEB00k.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 13:19:46",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 13:18:47",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 13:16:12",
+        "type": "EXTENSION",
+        "url": "https://tech-workshop.great-site.net/index.php",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 13:11:15",
+        "type": "URL",
+        "url": "https://www.google.com/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 13:10:30",
+        "type": "URL",
+        "url": "https://www.google.com/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 13:08:43",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 12:47:51",
+        "type": "URL",
+        "url": "https://www.wikipeurirdia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 12:47:13",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 12:36:56",
+        "type": "URL",
+        "url": "https://www.wikifyrpedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 12:34:47",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 12:15:12",
+        "type": "FICHIER",
+        "url": "python-3.13.14-amd64 (1).exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-06-20 12:12:53",
+        "type": "URL",
+        "url": "https://www.wikijtjupedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 12:11:40",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 12:07:51",
+        "type": "EXTENSION",
+        "url": "edge://extensions/?id=doodhgmcojccohkokncclmonfidalmod",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 12:06:43",
+        "type": "FICHIER",
+        "url": "VirtualBox-7.2.8-173730-Win.exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-06-20 12:05:01",
+        "type": "URL",
+        "url": "https://www.wikgigipedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 12:03:27",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 12:02:11",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 11:56:12",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 11:52:26",
+        "type": "URL",
+        "url": "https://www.wikipeYGdia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 11:51:30",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 11:48:49",
+        "type": "EXTENSION",
+        "url": "edge://extensions/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 11:47:09",
+        "type": "URL",
+        "url": "https://www.wikijjpedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 11:45:11",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 11:42:53",
+        "type": "FICHIER",
+        "url": "devcpp-4.9.9.2_setup.exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-06-20 11:37:25",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 11:33:05",
+        "type": "URL",
+        "url": "https://www.wiHZUkipedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 11:31:54",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 11:28:33",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 11:24:27",
+        "type": "EXTENSION",
+        "url": "edge://extensions/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 11:19:35",
+        "type": "URL",
+        "url": "https://www.wikipHEUIEUedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 11:19:09",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 11:16:01",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 11:10:19",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 11:07:03",
+        "type": "FICHIER",
+        "url": "devcpp-4.9.9.2_setup.exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-06-20 11:05:57",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 11:05:40",
+        "type": "URL",
+        "url": "https://www.wikipeYTUdia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 11:04:39",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 10:53:25",
+        "type": "EXTENSION",
+        "url": "edge://extensions/?id=doodhgmcojccohkokncclmonfidalmod",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 10:52:05",
+        "type": "URL",
+        "url": "https://www.wikipYDUEFUedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:51:21",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 10:48:14",
+        "type": "EXTENSION",
+        "url": "edge://extensions/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 10:47:38",
+        "type": "URL",
+        "url": "https://www.wikipJKFKIedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:46:56",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 10:43:59",
+        "type": "EXTENSION",
+        "url": "edge://extensions/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 10:43:12",
+        "type": "URL",
+        "url": "https://www.wikjffjripedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:42:38",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 10:36:18",
+        "type": "URL",
+        "url": "https://www.wikiHFJLRpedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:34:41",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 10:31:58",
+        "type": "EXTENSION",
+        "url": "edge://extensions/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 10:31:15",
+        "type": "URL",
+        "url": "https://www.wikUJIOT4JIRUIipedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:30:00",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 10:20:55",
+        "type": "EXTENSION",
+        "url": "edge://extensions/?id=doodhgmcojccohkokncclmonfidalmod",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 10:19:36",
+        "type": "URL",
+        "url": "https://githJEJEIRIub.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:19:01",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:08:03",
+        "type": "FICHIER",
+        "url": "devcpp-4.9.9.2_setup.exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-06-20 10:07:20",
+        "type": "URL",
+        "url": "https://gitJREOIOIR4HJTLIGTPhub.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:06:33",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:06:30",
+        "type": "EXTENSION",
+        "url": "http://127.0.0.1:5000/",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 10:05:22",
+        "type": "EXTENSION",
+        "url": "edge://newtab/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 10:05:11",
+        "type": "EXTENSION",
+        "url": "edge://newtab/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 10:04:34",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:03:31",
+        "type": "URL",
+        "url": "https://githHJDFJIFRYub.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 10:02:18",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:54:54",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:50:18",
+        "type": "EXTENSION",
+        "url": "edge://extensions/?id=doodhgmcojccohkokncclmonfidalmod",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 09:49:24",
+        "type": "URL",
+        "url": "https://gihrj\"kih\"thub.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 09:48:36",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:44:23",
+        "type": "URL",
+        "url": "https://www.paypal.com/signin",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 09:42:04",
+        "type": "EXTENSION",
+        "url": "edge://newtab/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 09:40:26",
+        "type": "EXTENSION",
+        "url": "http://127.0.0.1:5000/analyze-url",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:38:35",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 09:36:58",
+        "type": "EXTENSION",
+        "url": "edge://extensions/?id=doodhgmcojccohkokncclmonfidalmod",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 09:36:05",
+        "type": "URL",
+        "url": "http://127.0.0.1:5000",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:34:18",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:28:39",
+        "type": "URL",
+        "url": "https://www.rnicrosoft.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 09:25:56",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:21:56",
+        "type": "EXTENSION",
+        "url": "http://127.0.0.1:5000/",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:21:53",
+        "type": "EXTENSION",
+        "url": "http://127.0.0.1:5000/",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:20:22",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 09:20:00",
+        "type": "URL",
+        "url": "github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:19:39",
+        "type": "URL",
+        "url": "google.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:18:58",
+        "type": "URL",
+        "url": "http://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:18:38",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:15:35",
+        "type": "URL",
+        "url": "www.google.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-20 09:14:33",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-20 09:14:15",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 09:13:58",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-20 09:13:41",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 21:42:37",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 21:25:49",
+        "type": "EXTENSION",
+        "url": "http://127.0.0.1:5000/history",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 21:23:54",
+        "type": "URL",
+        "url": "https://githjhtjhfkub.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 21:23:35",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 19:30:16",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 19:29:51",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 19:17:27",
+        "type": "URL",
+        "url": "https://githublogin.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 19:15:28",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 19:11:58",
+        "type": "EXTENSION",
+        "url": "http://127.0.0.1:5000/",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 19:10:19",
+        "type": "URL",
+        "url": "https://githublogin.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 19:05:42",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 19:04:47",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 10:02:59",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 10:02:12",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 09:29:36",
+        "type": "EXTENSION",
+        "url": "https://dillinger.io/",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 09:29:17",
+        "type": "EXTENSION",
+        "url": "edge://extensions/?id=doodhgmcojccohkokncclmonfidalmod",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-19 09:29:14",
+        "type": "EXTENSION",
+        "url": "edge://extensions/?id=doodhgmcojccohkokncclmonfidalmod",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-19 09:29:06",
+        "type": "EXTENSION",
+        "url": "edge://extensions/?id=doodhgmcojccohkokncclmonfidalmod",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-19 09:22:46",
+        "type": "EXTENSION",
+        "url": "https://claude.ai/new",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 09:21:25",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 09:10:38",
+        "type": "URL",
+        "url": "Act as a Senior Cybersecurity Researcher and Expert Technical Writer. I need you to write a comprehensive, highly detailed, and academic-grade Graduation Project Report (Mémoire de fin d'études) about my project: \"Système Intelligent de Détection des Menaces Web (Fake Website & Phishing Detector)\".     The entire report must be written in French, following a formal academic tone. Use Markdown formatting.    Here are the strict structural and content requirements:    1. TABLE OF CONTENTS (PLAN DÉTAILLÉ) : At the very beginning, generate a complete and multi-level Table of Contents detailing all chapters, sections, and sub-sections.    2. LOGICAL ARCHITECTURE & DIAGRAMS : Include clear ASCII or textual flowchart diagrams representing the Hybrid Client-Server Architecture (Extension Navigateur Chrome/Edge <---> Flask Python API Back-End <---> Tensorflow/Keras .h5 Deep Learning Model).    3. SOURCE CODE ANALYSIS : Include complete, clean, and well-commented Python/Flask source code for 'app.py' featuring:     - Global CORS configuration (flask_cors).     - Dynamic 16-dimensional feature extraction method from a raw URL string.     - Keras model loading (.h5) and safe real-time inference returning a JSON response with 'verdict' (TRUE/FAKE) and 'confidence_score'.     - Include a basic 'manifest.json' (Manifest V3) for the browser extension.    4. IMAGE PLACEHOLDERS : Throughout the report, dynamically place highly explicit image placeholders using the standard Markdown syntax: `![Description détaillée de l'image](URL_DE_VOTRE_IMAGE)`. Ensure you place placeholders for:     - The main Hacker Security Suite Dashboard interface.     - A successful core scanner live extraction pipeline for a safe URL (Cas TRUE - ex: github.com with resolved DNS mapping).     - A malicious phishing URL detection alert (Cas FAKE - ex: secure-login-paypal with failed DNS).     - Real system log tables (Audit tables for certified URLs vs blocked threat logs).     - Network connection failure troubleshooting diagram (Flask server down / CORS error block).    5. EXPERIMENTAL RESULTS & TABLES : Design realistic data tables representing system log outputs, metrics (Accuracy, Precision, Recall), and request processing latency (in milliseconds) to make the report look highly authentic and data-driven.    Please generate the full, detailed, and comprehensive report now in French. Do not summarize or use shortcuts; write out all paragraphs extensively.    la hada  brite bi les image et diagrame # 🛡️ RAPPORT DE PROJET FIN D'ÉTUDES  ## SYSTÈME INTELLIGENT DE DÉTECTION DES MENACES WEB & CYBERSÉCURITÉ  ### *Approche Hybride par Deep Learning et Agent Client en Temps Réel*    **Date de validation :** 19 Juin 2026    **Auteur :** Équipe Projet Cybersécurité    **Version :** 2.0 (Document Final de Production)      ---    ## 📑 PLAN GÉNÉRAL DU RAPPORT    * **1. Résumé Exécutif**  * **2. Contexte, Problématique et Architecture Générale**      * *2.1 Limites des solutions traditionnelles*      * *2.2 Architecture Logique Globale (Client-Serveur)*  * **3. Interface Utilisateur & Suite de Sécurité**  * **4. Pipeline d'Extraction et Intelligence Artificielle**      * *4.1 Analyse en profondeur d'une URL légitime (Cas TRUE)*      * *4.2 Analyse en profondeur d'une URL malveillante (Cas FAKE)*  * **5. Implémentation du Code Source Central (Back-End)**  * **6. Registre Central d'Audit (Gestion des Logs Réels)**      * *6.1 Analyse des éléments certifiés et sains (TRUE / SAFE)*      * *6.2 Analyse des menaces interceptées et bloquées (FAKE / MALICIOUS)*  * **7. Conclusion et Perspectives d'Évolution**    ---    ## 1. Résumé Exécutif    Le présent rapport documente la conception, le déploiement et l'évaluation d'un **Système Intelligent de Détection des Menaces Web**. Face à l'obsolescence des listes noires traditionnelles, ce projet introduit une architecture hybride capable de classifier en temps réel la légitimité des requêtes HTTP/HTTPS et des fichiers à l'aide d'un modèle de Deep Learning (Réseau de neurones artificiels TensorFlow/Keras). L'agent client prend la forme d'une extension de navigateur intuitive couplée à un dashboard d'administration centralisé.    ---    ## 2. Contexte, Problématique et Architecture Générale    ### 2.1 Limites des solutions traditionnelles  Les bases de données de phishing classiques souffrent d'une latence critique. Un site frauduleux reste en moyenne actif moins de 24 heures, rendant les listes de blocage inefficaces contre les attaques *Zero-Day*. Notre approche résout ce problème en analysant la structure géométrique intrinsèque de l'URL dès qu'elle est sollicitée par l'utilisateur.    ### 2.2 Architecture Logique Globale  L'infrastructure est découplée en trois couches distinctes pour maximiser les performances et la tolérance aux pannes :    [ EXTENSION NAVIGATEUR ] (Interception des URLs en direct)  │  ▼ (Requêtes REST asynchrones)  [ SERVEUR FLASK API ] ───► [ EXTRACTION DE VIA 16 FEATURES ]  │  ▼ (Inférence matricielle)  [ MODÈLE DEEP LEARNING ] ───► [ VERDICT FINAL : TRUE / FAKE ]      ---    ## 3. Interface Utilisateur & Suite de Sécurité    L'accès à la suite de sécurité s'effectue via une console d'administration épurée baptisée **Hacker Security Suite**. Elle permet à l'administrateur système de lancer des audits globaux manuels ou de basculer entre l'analyse d'URLs et l'analyse cryptographique d'intégrité des fichiers.    ![Interface Principale du Tableau de Bord - Hacker Security Suite](image_573169.jpg)    *Figure 1 : Interface utilisateur centralisée permettant l'aiguillage des scans réseau et de fichiers.*    ---    ## 4. Pipeline d'Extraction et Intelligence Artificielle    Lorsqu'une entité (URL) pénètre le moteur de scan, le système déploie un **Core Scanner** qui analyse la chaîne à travers un pipeline de traitement en direct structuré en 5 niveaux fondamentaux :  1. **Brand Keywords :** Détection de termes sensibles usurpés (ex: `paypal`).  2. **Protocol & Len :** Analyse du protocole de chiffrement et de la longueur totale de l'URI.  3. **ASCII to Binary :** Encodage et vectorisation numérique.  4. **UDP Transport :** Requête réseau sur le port 53 (DNS Request).  5. **DNS Mapping :** Résolution et validation de l'adresse IP de destination.    ### 4.1 Analyse en profondeur d'une URL légitime (Cas TRUE)  Pour une URL de confiance éprouvée telle que `https://github.com`, le système valide le protocole sécurisé, mappe avec succès l'adresse IP (`140.82.121.4`) et extrait un vecteur de caractéristiques sain. L'indice de certitude calculé par le modèle d'IA atteint **94.5%**.    ![Pipeline d'extraction - Résultat Sain (TRUE)](image_572dc7.png)    *Figure 2 : Diagnostic vectoriel et rapport d'inspection pour une cible certifiée saine.*    ### 4.2 Analyse en profondeur d'une URL malveillante (Cas FAKE)  Face à une URL suspecte imitant une plateforme bancaire (`http://www.secure-login-paypal-update.com`), le pipeline extrait un indice de risque de **88%**. Le modèle Tensor-Core lève immédiatement un verdict de blocage **FAKE** en raison d'une rupture structurelle (échec de résolution DNS et utilisation du protocole non chiffré HTTP).    ![Pipeline d'extraction - Alerte de Menace (FAKE)](image_572dc7.png)    *Figure 3 : Diagnostic d'une menace d'ingénierie sociale détectée par analyse matricielle.*    ---    ## 5. Implémentation du Code Source Central (Back-End)    Le cœur applicatif est propulsé par une API REST robuste écrite en **Python / Flask**. Ce serveur assure le chargement du modèle prédictif au démarrage et orchestre l'accès aux extensions clientes via la mise en place de politiques de sécurité CORS (*Cross-Origin Resource Sharing*).    ```python  # app.py - Serveur d'Inférence d'IA et Moteur de Détection  from flask import Flask, request, jsonify  from flask_cors import CORS  import tensorflow as tf  import numpy as np    app = Flask(__name__)  CORS(app) # Autorise l'interconnexion sécurisée avec l'extension Chrome/Edge    # Chargement du réseau de neurones pré-entraîné  try:      model = tf.keras.models.load_model('Malicious_URL_Prediction.h5')      print(\"🚀 Modèle Tensor-Core initialisé avec succès.\")  except Exception as e:      print(f\"❌ Erreur critique lors du chargement du fichier .h5 : {e}\")    def extract_structural_features(url):      \"\"\" Analyse syntaxique de l'URL et conversion en vecteur 16 dimensions \"\"\"      features = [len(url), 1 if \"https\" in url else 0, url.count('.'), url.count('-')]      # Rembourrage vectoriel (Padding) pour correspondre à l'entrée du modèle      while len(features) < 16:          features.append(0)      return np.array([features])    @app.route('/api/v1/scan', methods=['POST'])  def process_scan_request():      payload = request.get_json()      if not payload or 'url' not in payload:          return jsonify({'status': 'error', 'message': 'Paramètre manquant'}), 400            target_url = payload['url']      input_vector = extract_structural_features(target_url)            # Inférence probabiliste      prediction_score = float(model.predict(input_vector)[0][0])      risk = prediction_score * 100            verdict = \"FAKE\" if risk >= 50.0 else \"TRUE\"      confidence = risk if verdict == \"FAKE\" else (100.0 - risk)            return jsonify({          'url': target_url,          'verdict': verdict,          'confidence_score': round(confidence, 1)      })    if __name__ == '__main__':      app.run(host='127.0.0.1', port=5000, debug=False)  6. Registre Central d'Audit (Gestion des Logs Réels)  6.1 Analyse des éléments certifiés et sains (TRUE / SAFE)  Toutes les analyses transparentes effectuées par l'extension client font l'objet d'une journalisation stricte au sein du registre central des logs. Le tableau ci-dessous expose les transactions légitimes validées par le système à un taux immuable de 94.5% de fiabilité.    Figure 4 : Historique d'audit des adresses internet certifiées saines par l'agent de sécurité.    6.2 Analyse des menaces interceptées et bloquées (FAKE / MALICIOUS)  Parallèlement, le système isole les menaces détectées dans un registre d'exclusion. On y observe de nombreuses interceptions menées directement depuis l'extension sur des processus système internes (edge://newtab/) ainsi que sur des adresses HTTP compromises, avec un indice de risque s'élevant jusqu'à 85%.    Figure 5 : Base de données des attaques de phishing neutralisées en temps réel.    7. Conclusion et Perspectives d'Évolution  Bilan Technique  La suite logicielle conçue démontre une synergie parfaite entre les mécanismes avancés de la cybersécurité moderne et l'intelligence artificielle. Les temps de réponse observés lors de l'interception et de l'inférence du modèle .h5 se situent sous la barre des 45 millisecondes, garantissant une expérience utilisateur fluide et sans latence visible.    Évolutions Futures (Feuille de route 2027)  Intégration d'une Sandbox Hybride : Permettre l'exécution dynamique des fichiers suspects au sein d'un conteneur isolé pour analyser leur arbre d'appels système en plus de leur signature SHA-256.    Décentralisation de l'IA (Edge Computing) : Optimiser le modèle de Deep Learning pour permettre son exécution locale directe dans l'extension via TensorFlow.js, réduisant ainsi à zéro la dépendance à un serveur back-end tiers.",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 09:10:25",
+        "type": "URL",
+        "url": "Act as a Senior Cybersecurity Researcher and Expert Technical Writer. I need you to write a comprehensive, highly detailed, and academic-grade Graduation Project Report (Mémoire de fin d'études) about my project: \"Système Intelligent de Détection des Menaces Web (Fake Website & Phishing Detector)\".     The entire report must be written in French, following a formal academic tone. Use Markdown formatting.    Here are the strict structural and content requirements:    1. TABLE OF CONTENTS (PLAN DÉTAILLÉ) : At the very beginning, generate a complete and multi-level Table of Contents detailing all chapters, sections, and sub-sections.    2. LOGICAL ARCHITECTURE & DIAGRAMS : Include clear ASCII or textual flowchart diagrams representing the Hybrid Client-Server Architecture (Extension Navigateur Chrome/Edge <---> Flask Python API Back-End <---> Tensorflow/Keras .h5 Deep Learning Model).    3. SOURCE CODE ANALYSIS : Include complete, clean, and well-commented Python/Flask source code for 'app.py' featuring:     - Global CORS configuration (flask_cors).     - Dynamic 16-dimensional feature extraction method from a raw URL string.     - Keras model loading (.h5) and safe real-time inference returning a JSON response with 'verdict' (TRUE/FAKE) and 'confidence_score'.     - Include a basic 'manifest.json' (Manifest V3) for the browser extension.    4. IMAGE PLACEHOLDERS : Throughout the report, dynamically place highly explicit image placeholders using the standard Markdown syntax: `![Description détaillée de l'image](URL_DE_VOTRE_IMAGE)`. Ensure you place placeholders for:     - The main Hacker Security Suite Dashboard interface.     - A successful core scanner live extraction pipeline for a safe URL (Cas TRUE - ex: github.com with resolved DNS mapping).     - A malicious phishing URL detection alert (Cas FAKE - ex: secure-login-paypal with failed DNS).     - Real system log tables (Audit tables for certified URLs vs blocked threat logs).     - Network connection failure troubleshooting diagram (Flask server down / CORS error block).    5. EXPERIMENTAL RESULTS & TABLES : Design realistic data tables representing system log outputs, metrics (Accuracy, Precision, Recall), and request processing latency (in milliseconds) to make the report look highly authentic and data-driven.    Please generate the full, detailed, and comprehensive report now in French. Do not summarize or use shortcuts; write out all paragraphs extensively.    la hada  brite bi les image et diagrame # 🛡️ RAPPORT DE PROJET FIN D'ÉTUDES  ## SYSTÈME INTELLIGENT DE DÉTECTION DES MENACES WEB & CYBERSÉCURITÉ  ### *Approche Hybride par Deep Learning et Agent Client en Temps Réel*    **Date de validation :** 19 Juin 2026    **Auteur :** Équipe Projet Cybersécurité    **Version :** 2.0 (Document Final de Production)      ---    ## 📑 PLAN GÉNÉRAL DU RAPPORT    * **1. Résumé Exécutif**  * **2. Contexte, Problématique et Architecture Générale**      * *2.1 Limites des solutions traditionnelles*      * *2.2 Architecture Logique Globale (Client-Serveur)*  * **3. Interface Utilisateur & Suite de Sécurité**  * **4. Pipeline d'Extraction et Intelligence Artificielle**      * *4.1 Analyse en profondeur d'une URL légitime (Cas TRUE)*      * *4.2 Analyse en profondeur d'une URL malveillante (Cas FAKE)*  * **5. Implémentation du Code Source Central (Back-End)**  * **6. Registre Central d'Audit (Gestion des Logs Réels)**      * *6.1 Analyse des éléments certifiés et sains (TRUE / SAFE)*      * *6.2 Analyse des menaces interceptées et bloquées (FAKE / MALICIOUS)*  * **7. Conclusion et Perspectives d'Évolution**    ---    ## 1. Résumé Exécutif    Le présent rapport documente la conception, le déploiement et l'évaluation d'un **Système Intelligent de Détection des Menaces Web**. Face à l'obsolescence des listes noires traditionnelles, ce projet introduit une architecture hybride capable de classifier en temps réel la légitimité des requêtes HTTP/HTTPS et des fichiers à l'aide d'un modèle de Deep Learning (Réseau de neurones artificiels TensorFlow/Keras). L'agent client prend la forme d'une extension de navigateur intuitive couplée à un dashboard d'administration centralisé.    ---    ## 2. Contexte, Problématique et Architecture Générale    ### 2.1 Limites des solutions traditionnelles  Les bases de données de phishing classiques souffrent d'une latence critique. Un site frauduleux reste en moyenne actif moins de 24 heures, rendant les listes de blocage inefficaces contre les attaques *Zero-Day*. Notre approche résout ce problème en analysant la structure géométrique intrinsèque de l'URL dès qu'elle est sollicitée par l'utilisateur.    ### 2.2 Architecture Logique Globale  L'infrastructure est découplée en trois couches distinctes pour maximiser les performances et la tolérance aux pannes :    [ EXTENSION NAVIGATEUR ] (Interception des URLs en direct)  │  ▼ (Requêtes REST asynchrones)  [ SERVEUR FLASK API ] ───► [ EXTRACTION DE VIA 16 FEATURES ]  │  ▼ (Inférence matricielle)  [ MODÈLE DEEP LEARNING ] ───► [ VERDICT FINAL : TRUE / FAKE ]      ---    ## 3. Interface Utilisateur & Suite de Sécurité    L'accès à la suite de sécurité s'effectue via une console d'administration épurée baptisée **Hacker Security Suite**. Elle permet à l'administrateur système de lancer des audits globaux manuels ou de basculer entre l'analyse d'URLs et l'analyse cryptographique d'intégrité des fichiers.    ![Interface Principale du Tableau de Bord - Hacker Security Suite](image_573169.jpg)    *Figure 1 : Interface utilisateur centralisée permettant l'aiguillage des scans réseau et de fichiers.*    ---    ## 4. Pipeline d'Extraction et Intelligence Artificielle    Lorsqu'une entité (URL) pénètre le moteur de scan, le système déploie un **Core Scanner** qui analyse la chaîne à travers un pipeline de traitement en direct structuré en 5 niveaux fondamentaux :  1. **Brand Keywords :** Détection de termes sensibles usurpés (ex: `paypal`).  2. **Protocol & Len :** Analyse du protocole de chiffrement et de la longueur totale de l'URI.  3. **ASCII to Binary :** Encodage et vectorisation numérique.  4. **UDP Transport :** Requête réseau sur le port 53 (DNS Request).  5. **DNS Mapping :** Résolution et validation de l'adresse IP de destination.    ### 4.1 Analyse en profondeur d'une URL légitime (Cas TRUE)  Pour une URL de confiance éprouvée telle que `https://github.com`, le système valide le protocole sécurisé, mappe avec succès l'adresse IP (`140.82.121.4`) et extrait un vecteur de caractéristiques sain. L'indice de certitude calculé par le modèle d'IA atteint **94.5%**.    ![Pipeline d'extraction - Résultat Sain (TRUE)](image_572dc7.png)    *Figure 2 : Diagnostic vectoriel et rapport d'inspection pour une cible certifiée saine.*    ### 4.2 Analyse en profondeur d'une URL malveillante (Cas FAKE)  Face à une URL suspecte imitant une plateforme bancaire (`http://www.secure-login-paypal-update.com`), le pipeline extrait un indice de risque de **88%**. Le modèle Tensor-Core lève immédiatement un verdict de blocage **FAKE** en raison d'une rupture structurelle (échec de résolution DNS et utilisation du protocole non chiffré HTTP).    ![Pipeline d'extraction - Alerte de Menace (FAKE)](image_572dc7.png)    *Figure 3 : Diagnostic d'une menace d'ingénierie sociale détectée par analyse matricielle.*    ---    ## 5. Implémentation du Code Source Central (Back-End)    Le cœur applicatif est propulsé par une API REST robuste écrite en **Python / Flask**. Ce serveur assure le chargement du modèle prédictif au démarrage et orchestre l'accès aux extensions clientes via la mise en place de politiques de sécurité CORS (*Cross-Origin Resource Sharing*).    ```python  # app.py - Serveur d'Inférence d'IA et Moteur de Détection  from flask import Flask, request, jsonify  from flask_cors import CORS  import tensorflow as tf  import numpy as np    app = Flask(__name__)  CORS(app) # Autorise l'interconnexion sécurisée avec l'extension Chrome/Edge    # Chargement du réseau de neurones pré-entraîné  try:      model = tf.keras.models.load_model('Malicious_URL_Prediction.h5')      print(\"🚀 Modèle Tensor-Core initialisé avec succès.\")  except Exception as e:      print(f\"❌ Erreur critique lors du chargement du fichier .h5 : {e}\")    def extract_structural_features(url):      \"\"\" Analyse syntaxique de l'URL et conversion en vecteur 16 dimensions \"\"\"      features = [len(url), 1 if \"https\" in url else 0, url.count('.'), url.count('-')]      # Rembourrage vectoriel (Padding) pour correspondre à l'entrée du modèle      while len(features) < 16:          features.append(0)      return np.array([features])    @app.route('/api/v1/scan', methods=['POST'])  def process_scan_request():      payload = request.get_json()      if not payload or 'url' not in payload:          return jsonify({'status': 'error', 'message': 'Paramètre manquant'}), 400            target_url = payload['url']      input_vector = extract_structural_features(target_url)            # Inférence probabiliste      prediction_score = float(model.predict(input_vector)[0][0])      risk = prediction_score * 100            verdict = \"FAKE\" if risk >= 50.0 else \"TRUE\"      confidence = risk if verdict == \"FAKE\" else (100.0 - risk)            return jsonify({          'url': target_url,          'verdict': verdict,          'confidence_score': round(confidence, 1)      })    if __name__ == '__main__':      app.run(host='127.0.0.1', port=5000, debug=False)  6. Registre Central d'Audit (Gestion des Logs Réels)  6.1 Analyse des éléments certifiés et sains (TRUE / SAFE)  Toutes les analyses transparentes effectuées par l'extension client font l'objet d'une journalisation stricte au sein du registre central des logs. Le tableau ci-dessous expose les transactions légitimes validées par le système à un taux immuable de 94.5% de fiabilité.    Figure 4 : Historique d'audit des adresses internet certifiées saines par l'agent de sécurité.    6.2 Analyse des menaces interceptées et bloquées (FAKE / MALICIOUS)  Parallèlement, le système isole les menaces détectées dans un registre d'exclusion. On y observe de nombreuses interceptions menées directement depuis l'extension sur des processus système internes (edge://newtab/) ainsi que sur des adresses HTTP compromises, avec un indice de risque s'élevant jusqu'à 85%.    Figure 5 : Base de données des attaques de phishing neutralisées en temps réel.    7. Conclusion et Perspectives d'Évolution  Bilan Technique  La suite logicielle conçue démontre une synergie parfaite entre les mécanismes avancés de la cybersécurité moderne et l'intelligence artificielle. Les temps de réponse observés lors de l'interception et de l'inférence du modèle .h5 se situent sous la barre des 45 millisecondes, garantissant une expérience utilisateur fluide et sans latence visible.    Évolutions Futures (Feuille de route 2027)  Intégration d'une Sandbox Hybride : Permettre l'exécution dynamique des fichiers suspects au sein d'un conteneur isolé pour analyser leur arbre d'appels système en plus de leur signature SHA-256.    Décentralisation de l'IA (Edge Computing) : Optimiser le modèle de Deep Learning pour permettre son exécution locale directe dans l'extension via TensorFlow.js, réduisant ainsi à zéro la dépendance à un serveur back-end tiers.",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 08:54:29",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 08:44:39",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 08:35:55",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 08:35:36",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 08:29:59",
+        "type": "EXTENSION",
+        "url": "https://chatgpt.com/c/6a34342c-87b4-83ed-b738-46b4226e5d9e",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:56:52",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:37:24",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:37:10",
+        "type": "EXTENSION",
+        "url": "edge://newtab/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-19 00:37:09",
+        "type": "EXTENSION",
+        "url": "edge://newtab/",
+        "result": "FAKE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-19 00:36:29",
+        "type": "EXTENSION",
+        "url": "https://claude.ai/new",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:33:47",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:33:33",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:22:47",
+        "type": "EXTENSION",
+        "url": "https://www.google.com/search?q=fayspok&oq=fay&sourceid=chrome&ie=UTF-8",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:22:30",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app/dc606f5eef21b662?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330488&gbraid=0AAAAApk5Bhm86npWn08NLffFYK20bJv9f&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD0culTSj9rQeUbaOj5h5x2SZdtFwv-2ES46_T9uzI0NiivBIFubrVMaAm6nEALw_wcB",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:22:19",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app/dc606f5eef21b662?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330488&gbraid=0AAAAApk5Bhm86npWn08NLffFYK20bJv9f&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD0culTSj9rQeUbaOj5h5x2SZdtFwv-2ES46_T9uzI0NiivBIFubrVMaAm6nEALw_wcB",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:21:52",
+        "type": "URL",
+        "url": "http//github.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:21:18",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "94.5%"
+    },
+    {
+        "date": "2026-06-19 00:14:31",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app/dc606f5eef21b662?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330488&gbraid=0AAAAApk5Bhm86npWn08NLffFYK20bJv9f&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD0culTSj9rQeUbaOj5h5x2SZdtFwv-2ES46_T9uzI0NiivBIFubrVMaAm6nEALw_wcB",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:13:56",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app/dc606f5eef21b662?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330488&gbraid=0AAAAApk5Bhm86npWn08NLffFYK20bJv9f&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD0culTSj9rQeUbaOj5h5x2SZdtFwv-2ES46_T9uzI0NiivBIFubrVMaAm6nEALw_wcB",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:12:25",
+        "type": "EXTENSION",
+        "url": "https://www.google.com/search?q=facebook+com+login&sca_esv=bec4f44b4fc03395&sxsrf=ANbL-n4VC0_2-hl0dtzRAHo3SQjEL5dfAA%3A1781823265074&ei=IXc0apmOBI2Bxc8Pkff8uAg&biw=1280&bih=557&oq=fayspok&gs_lp=Egxnd3Mtd2l6LXNlcnAiB2ZheXNwb2sqAggBMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMg0QLhiABBiKBRhDGLADMg0QABiABBiKBRhDGLADSM4TUABYAHABeAGQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAi6YAwDiAwUSATEgQIgGAZAGCpIHATGgBwCyBwC4BwDCBwM0LTHIBx6ACAE&sclient=gws-wiz-serp",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:12:11",
+        "type": "EXTENSION",
+        "url": "https://www.google.com/search?q=facebook+com+login&sca_esv=bec4f44b4fc03395&sxsrf=ANbL-n4VC0_2-hl0dtzRAHo3SQjEL5dfAA%3A1781823265074&ei=IXc0apmOBI2Bxc8Pkff8uAg&biw=1280&bih=557&oq=fayspok&gs_lp=Egxnd3Mtd2l6LXNlcnAiB2ZheXNwb2sqAggBMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMg0QLhiABBiKBRhDGLADMg0QABiABBiKBRhDGLADSM4TUABYAHABeAGQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAi6YAwDiAwUSATEgQIgGAZAGCpIHATGgBwCyBwC4BwDCBwM0LTHIBx6ACAE&sclient=gws-wiz-serp",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:12:11",
+        "type": "EXTENSION",
+        "url": "https://www.google.com/search?q=facebook+com+login&sca_esv=bec4f44b4fc03395&sxsrf=ANbL-n4VC0_2-hl0dtzRAHo3SQjEL5dfAA%3A1781823265074&ei=IXc0apmOBI2Bxc8Pkff8uAg&biw=1280&bih=557&oq=fayspok&gs_lp=Egxnd3Mtd2l6LXNlcnAiB2ZheXNwb2sqAggBMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMg0QLhiABBiKBRhDGLADMg0QABiABBiKBRhDGLADSM4TUABYAHABeAGQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAi6YAwDiAwUSATEgQIgGAZAGCpIHATGgBwCyBwC4BwDCBwM0LTHIBx6ACAE&sclient=gws-wiz-serp",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:12:09",
+        "type": "EXTENSION",
+        "url": "https://www.google.com/search?q=facebook+com+login&sca_esv=bec4f44b4fc03395&sxsrf=ANbL-n4VC0_2-hl0dtzRAHo3SQjEL5dfAA%3A1781823265074&ei=IXc0apmOBI2Bxc8Pkff8uAg&biw=1280&bih=557&oq=fayspok&gs_lp=Egxnd3Mtd2l6LXNlcnAiB2ZheXNwb2sqAggBMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMg0QLhiABBiKBRhDGLADMg0QABiABBiKBRhDGLADSM4TUABYAHABeAGQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAi6YAwDiAwUSATEgQIgGAZAGCpIHATGgBwCyBwC4BwDCBwM0LTHIBx6ACAE&sclient=gws-wiz-serp",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:11:47",
+        "type": "EXTENSION",
+        "url": "chrome://extensions/",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:10:13",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app/dc606f5eef21b662?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330488&gbraid=0AAAAApk5Bhm86npWn08NLffFYK20bJv9f&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD0culTSj9rQeUbaOj5h5x2SZdtFwv-2ES46_T9uzI0NiivBIFubrVMaAm6nEALw_wcB",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:05:27",
+        "type": "EXTENSION",
+        "url": "https://www.google.com/search?q=facebook+com+login&sca_esv=bec4f44b4fc03395&sxsrf=ANbL-n4VC0_2-hl0dtzRAHo3SQjEL5dfAA%3A1781823265074&ei=IXc0apmOBI2Bxc8Pkff8uAg&biw=1280&bih=557&oq=fayspok&gs_lp=Egxnd3Mtd2l6LXNlcnAiB2ZheXNwb2sqAggBMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMgoQABhHGNYEGLADMg0QLhiABBiKBRhDGLADMg0QABiABBiKBRhDGLADSM4TUABYAHABeAGQAQCYAQCgAQCqAQC4AQHIAQCYAgGgAi6YAwDiAwUSATEgQIgGAZAGCpIHATGgBwCyBwC4BwDCBwM0LTHIBx6ACAE&sclient=gws-wiz-serp",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-19 00:04:59",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app/dc606f5eef21b662?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330488&gbraid=0AAAAApk5Bhm86npWn08NLffFYK20bJv9f&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD0culTSj9rQeUbaOj5h5x2SZdtFwv-2ES46_T9uzI0NiivBIFubrVMaAm6nEALw_wcB",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 23:59:31",
+        "type": "EXTENSION",
+        "url": "https://www.google.com/search?q=fayspok&oq=fayspok&sourceid=chrome&ie=UTF-8",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 23:59:16",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app/dc606f5eef21b662?is_sa=1&s_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330488&gbraid=0AAAAApk5Bhm86npWn08NLffFYK20bJv9f",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 23:59:01",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app/dc606f5eef21b662?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330488&gbraid=0AAAAApk5Bhm86npWn08NLffFYK20bJv9f&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD1BWEe4CFprUdALbLgpP2Vlresw2Q0qf9Vg3EM2C7SJfUG_Wxt4XqcaAqZ_EALw_wcB",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 23:58:52",
+        "type": "EXTENSION",
+        "url": "https://gemini.google.com/app/dc606f5eef21b662?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330488&gbraid=0AAAAApk5Bhm86npWn08NLffFYK20bJv9f&gclid=Cj0KCQjwrs7RBhDuARIsAIVfBD1BWEe4CFprUdALbLgpP2Vlresw2Q0qf9Vg3EM2C7SJfUG_Wxt4XqcaAqZ_EALw_wcB",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 23:42:14",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 23:28:31",
+        "type": "URL",
+        "url": "http://127.0.0.1:5000/",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 22:32:37",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 22:30:42",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#sent",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 22:02:35",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#sent",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 20:33:16",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 20:31:10",
+        "type": "FICHIER",
+        "url": "python-3.13.14-amd64.exe",
+        "result": "MALICIOUS",
+        "confidence": "100.0%"
+    },
+    {
+        "date": "2026-06-18 19:49:08",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 19:48:10",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 19:45:36",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 19:45:15",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 19:25:30",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 19:10:29",
+        "type": "URL",
+        "url": "https://site48.example",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 19:09:41",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 19:09:10",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 18:40:17",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 18:39:02",
+        "type": "URL",
+        "url": "https://paypal.com,0",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:38:06",
+        "type": "URL",
+        "url": "https://site16.example",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:37:07",
+        "type": "URL",
+        "url": "TRUE, https://site16.example",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:35:21",
+        "type": "URL",
+        "url": "http://security-compliance-check.invalid",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:29:42",
+        "type": "FICHIER",
+        "url": "python-3.13.14-amd64 (1).exe",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-06-18 18:26:35",
+        "type": "URL",
+        "url": "https://githubcom",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:26:17",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 18:26:08",
+        "type": "URL",
+        "url": "https://githubcom",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:25:49",
+        "type": "URL",
+        "url": "https://githubgj.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:25:22",
+        "type": "URL",
+        "url": "https://www.wikipedia_hfhjvdfg.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:23:34",
+        "type": "URL",
+        "url": "https://www.wikipedia_hfhjvdfg.org",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:22:49",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 18:21:32",
+        "type": "FICHIER",
+        "url": "python-manager-26.2(1).msix",
+        "result": "MALICIOUS",
+        "confidence": "100.0%"
+    },
+    {
+        "date": "2026-06-18 18:20:01",
+        "type": "URL",
+        "url": "https://www.google.com/",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 18:13:50",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 18:12:27",
+        "type": "URL",
+        "url": "http://127.0.0.1:5000/",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 18:10:41",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 18:09:18",
+        "type": "URL",
+        "url": "http://www.secure-login-paypal-update.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 18:00:57",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 17:55:42",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 17:55:00",
+        "type": "URL",
+        "url": "https://github_login.com",
+        "result": "FAKE",
+        "confidence": "75.0%"
+    },
+    {
+        "date": "2026-06-18 17:54:40",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "85.0%"
+    },
+    {
+        "date": "2026-06-18 17:52:02",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 17:50:22",
+        "type": "URL",
+        "url": "https://www.google.com/",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 17:49:46",
+        "type": "FICHIER",
+        "url": "node-v24.16.0-x64.msi",
+        "result": "SAFE",
+        "confidence": "99.8%"
+    },
+    {
+        "date": "2026-06-18 17:49:13",
+        "type": "URL",
+        "url": "https://127.0.0.1:5000",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 17:48:57",
+        "type": "URL",
+        "url": "http://127.0.0.1:5000",
+        "result": "FAKE",
+        "confidence": "55%"
+    },
+    {
+        "date": "2026-06-18 17:47:10",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 17:25:47",
+        "type": "FICHIER",
+        "url": "node-v24.16.0-x64.msi",
+        "result": "TRUE",
+        "confidence": "98%"
+    },
+    {
+        "date": "2026-06-18 17:22:23",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:53:39",
+        "type": "FICHIER",
+        "url": "python-3.13.14-amd64.exe",
+        "result": "FAKE",
+        "confidence": "5%"
+    },
+    {
+        "date": "2026-06-18 16:47:27",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:38:27",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:36:50",
+        "type": "URL",
+        "url": "http://127.0.0.1:5000/",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:34:27",
+        "type": "URL",
+        "url": "http://127.0.0.1:5000/",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:30:52",
+        "type": "URL",
+        "url": "http://127.0.0.1:5000/",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:30:40",
+        "type": "URL",
+        "url": "https://www.google.com/",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:30:21",
+        "type": "URL",
+        "url": "https://www.google.com/",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:30:17",
+        "type": "URL",
+        "url": "https://www.google.com/",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:21:05",
+        "type": "URL",
+        "url": "https://www.google.com/",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:16:52",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 16:11:38",
+        "type": "URL",
+        "url": "https://www.wikipedia.org",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 08:19:26",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 08:19:13",
+        "type": "URL",
+        "url": "https://github.com",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 08:18:41",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "65%"
+    },
+    {
+        "date": "2026-06-18 08:18:11",
+        "type": "URL",
+        "url": "https://mail.google.com/mail/u/0/?hl=en#inbox/FMfcgzQgMCTwFPLJvftrDskCgWwJXnfn",
+        "result": "TRUE",
+        "confidence": "65%"
+    }
+]

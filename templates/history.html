@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sûreté Système — Historique des Analyses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { 
+            font-family: 'Courier New', Courier, monospace; 
+            background-color: #0b0f19; 
+            margin: 0; padding: 40px; 
+            color: #d1d5db; 
+        }
+        
+        .container { 
+            max-width: 1200px; margin: auto; 
+            background-color: #111827; padding: 30px; 
+            border-radius: 8px; border: 1px solid #1f2937;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        .main-title { 
+            text-align: center; color: #ffffff; margin-bottom: 40px; 
+            font-size: 28px; font-weight: bold; border-bottom: 2px dashed #1f2937;
+            padding-bottom: 20px;
+        }
+        
+        .section-title { 
+            font-size: 18px; font-weight: bold; margin: 30px 0 15px 0; 
+            padding: 10px; border-radius: 4px; display: flex; align-items: center; gap: 10px;
+        }
+        
+        /* ألوان العناوين الخاصة بالجداول */
+        .title-safe { background: rgba(16, 185, 129, 0.1); color: #10b981; border-left: 4px solid #10b981; }
+        .title-danger { background: rgba(239, 68, 68, 0.1); color: #ef4444; border-left: 4px solid #ef4444; }
+        
+        table { 
+            width: 100%; border-collapse: collapse; margin-bottom: 20px; background: #030712; 
+            border-radius: 6px; overflow: hidden; border: 1px solid #1f2937;
+        }
+        
+        th, td { padding: 12px 15px; text-align: left; font-size: 13px; }
+        
+        th { background-color: #1f2937; color: #ffffff; text-transform: uppercase; font-size: 11px; letter-spacing: 1px; }
+        tr { border-bottom: 1px solid #1f2937; }
+        tr:hover { background-color: #111827; }
+        
+        /* تسميات الحالات (Badges) */
+        .badge { padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 11px; }
+        .badge-true { background: #10b981; color: #000; }
+        .badge-safe { background: #059669; color: #fff; }
+        .badge-fake { background: #ef4444; color: #fff; }
+        .badge-malicious { background: #b91c1c; color: #fff; }
+        
+        .badge-type { background: #374151; color: #e5e7eb; font-family: sans-serif; }
+        
+        .target-text { font-weight: bold; color: #ffffff; word-break: break-all; }
+        .no-data { text-align: center; color: #6b7280; padding: 20px; font-style: italic; }
+        
+        .btn-back { 
+            display: block; width: fit-content; margin: 40px auto 0 auto; 
+            color: #ffffff; text-decoration: none; font-weight: bold; 
+            border: 1px solid #374151; padding: 10px 25px; border-radius: 4px; background: #1f2937; 
+        }
+        .btn-back:hover { background: #374151; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-title"><i class="fas fa-history"></i> Registre Central des Analyses (Logs)</div>
+
+        <div class="section-title title-safe">
+            <i class="fas fa-shield-check"></i> Éléments Sains et Certifiés (TRUE / SAFE)
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 18%;">Date & Heure</th>
+                    <th style="width: 12%;">Type Scan</th>
+                    <th>Cible Analysée (URL / Fichier)</th>
+                    <th style="width: 12%;">Verdict</th>
+                    <th style="width: 12%;">Fiabilité</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% set safe_count = namespace(value=0) %}
+                {% for entry in history %}
+                    {% if entry.result == 'TRUE' or entry.result == 'SAFE' %}
+                        {% set safe_count.value = safe_count.value + 1 %}
+                        <tr>
+                            <td>{{ entry.date }}</td>
+                            <td><span class="badge badge-type">{{ entry.type }}</span></td>
+                            <td class="target-text">{{ entry.url }}</td>
+                            <td>
+                                <span class="badge {% if entry.result == 'TRUE' %}badge-true{% else %}badge-safe{% endif %}">
+                                    {{ entry.result }}
+                                </span>
+                            </td>
+                            <td style="color: #10b981; font-weight: bold;">{{ entry.confidence }}</td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if safe_count.value == 0 %}
+                    <tr>
+                        <td colspan="5" class="no-data">Aucun élément sain enregistré pour le moment.</td>
+                    </tr>
+                {% endif %}
+            </tbody>
+        </table>
+
+
+        <div class="section-title title-danger">
+            <i class="fas fa-exfiltration"></i> Menaces Identifiées et Bloquées (FAKE / MALICIOUS)
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 18%;">Date & Heure</th>
+                    <th style="width: 12%;">Type Scan</th>
+                    <th>Cible Analysée (URL / Fichier)</th>
+                    <th style="width: 12%;">Verdict</th>
+                    <th style="width: 12%;">Risque IA</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% set fake_count = namespace(value=0) %}
+                {% for entry in history %}
+                    {% if entry.result == 'FAKE' or entry.result == 'MALICIOUS' %}
+                        {% set fake_count.value = fake_count.value + 1 %}
+                        <tr>
+                            <td>{{ entry.date }}</td>
+                            <td><span class="badge badge-type">{{ entry.type }}</span></td>
+                            <td class="target-text" style="color: #fca5a5;">{{ entry.url }}</td>
+                            <td>
+                                <span class="badge {% if entry.result == 'FAKE' %}badge-fake{% else %}badge-malicious{% endif %}">
+                                    {{ entry.result }}
+                                </span>
+                            </td>
+                            <td style="color: #ef4444; font-weight: bold;">{{ entry.confidence }}</td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if fake_count.value == 0 %}
+                    <tr>
+                        <td colspan="5" class="no-data">Félicitations. Aucune menace détectée dans l'historique.</td>
+                    </tr>
+                {% endif %}
+            </tbody>
+        </table>
+
+        <a href="/" class="btn-back"><i class="fas fa-home"></i> Retour au tableau de bord</a>
+    </div>
+
+</body>
+</html>

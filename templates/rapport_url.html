@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse Cyber-Tactique URL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* الخلفية الفيديو السينمائية بهدوء */
+        .video-bg { 
+            position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; 
+            width: auto; height: auto; z-index: -1000; object-fit: cover; opacity: 0.15; 
+            background-color: #0b0f17; 
+        }
+        
+        body { 
+            font-family: 'Courier New', Courier, monospace; 
+            background-color: #0b0f19; 
+            margin: 0; padding: 30px; 
+            color: #10b981; /* أخضر خافت مريح جداً للعين */
+        }
+        
+        .card { 
+            background-color: #111827; 
+            padding: 35px; border-radius: 8px; 
+            max-width: 1100px; margin: auto; 
+            border: 1px solid #1f2937; 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6); 
+            position: relative; z-index: 1; 
+        }
+        
+        .title { 
+            font-size: 24px; font-weight: bold; text-align: center; margin-bottom: 30px; 
+            color: #ffffff; text-shadow: none; 
+            border-bottom: 2px dashed #1f2937; padding-bottom: 15px; 
+        }
+
+        /* 🚀 خط الإنتاج (Pipeline) بدون أي توهج مزعج */
+        .cyber-pipeline { 
+            display: flex; justify-content: space-between; align-items: stretch; 
+            gap: 12px; margin-bottom: 35px; background: #030712; 
+            padding: 20px; border-radius: 6px; border: 1px solid #1f2937; 
+        }
+        
+        .cyber-step { 
+            flex: 1; background: #111827; border: 1px solid #1f2937; 
+            border-radius: 4px; padding: 15px 10px; text-align: center; 
+            display: flex; flex-direction: column; justify-content: space-between; 
+        }
+        
+        .cyber-step i { 
+            font-size: 22px; color: #10b981; margin-bottom: 10px; 
+        }
+        
+        .cyber-step h4 { 
+            margin: 0 0 10px 0; font-size: 11px; text-transform: uppercase; color: #9ca3af; letter-spacing: 1px; 
+        }
+        
+        /* ⚪ تكبير وتوضيح النصوص المكتوبة باللون الأبيض بناءً على طلبك */
+        .cyber-data { 
+            font-size: 14px; /* حجم أكبر وواضح */
+            font-weight: bold;
+            background: #030712; padding: 8px; border-radius: 3px; 
+            border: 1px solid #1f2937; 
+            color: #ffffff; /* أبيض ناصع وممتاز للقراءة */
+            word-break: break-all; 
+            font-family: 'Courier New', Courier, monospace; 
+            min-height: 35px; display: flex; align-items: center; justify-content: center; 
+        }
+
+        .pipeline-arrow { 
+            display: flex; align-items: center; color: #4b5563; font-size: 16px; 
+        }
+
+        /* صندوق القرار النهائي المتناسق */
+        .verdict-box { padding: 22px; border-radius: 6px; text-align: center; margin-bottom: 30px; font-weight: bold; }
+        .danger { background: rgba(239, 68, 68, 0.1); border: 1px solid #ef4444; color: #ef4444; }
+        .safe { background: rgba(16, 185, 129, 0.1); border: 1px solid #10b981; color: #10b981; }
+
+        /* الأقسام السفلية */
+        .stats-section { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .stat-card { background: #030712; border: 1px solid #1f2937; padding: 20px; border-radius: 6px; }
+        
+        .circle-container { display: flex; justify-content: center; margin: 15px 0; }
+        .circle-progress { 
+            position: relative; width: 100px; height: 100px; border-radius: 50%; 
+            display: flex; align-items: center; justify-content: center; 
+        }
+        .circle-progress.threat { background: conic-gradient(#ef4444 0% 85%, #1f2937 85% 100%); }
+        .circle-progress.clean { background: conic-gradient(#10b981 0% 95%, #1f2937 95% 100%); }
+        .circle-inner { width: 84px; height: 84px; background: #030712; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 15px; font-weight: bold; color: #fff; }
+        .circle-inner span { font-size: 9px; color: #9ca3af; }
+
+        .vuln-item { background: #111827; border-left: 4px solid #10b981; padding: 12px; margin-top: 10px; border-radius: 0 4px 4px 0; }
+        .vuln-item.Critique { border-left-color: #ef4444; }
+        
+        .btn-back { display: block; width: fit-content; margin: 30px auto 0 auto; color: #ffffff; text-decoration: none; font-weight: bold; border: 1px solid #374151; padding: 10px 25px; border-radius: 4px; background: #1f2937; }
+        .btn-back:hover { background: #374151; }
+    </style>
+</head>
+<body>
+
+    <video autoplay loop muted playsinline class="video-bg">
+        <source src="{{ url_for('static', filename='142363-780562112_medium.mp4') }}" type="video/mp4">
+    </video>
+
+    <div class="card">
+        <div class="title"><i class="fas fa-terminal"></i> CORE SCANNER : PIPELINE D'EXTRACTION LIVE</div>
+        
+        <div class="cyber-pipeline">
+            
+            <div class="cyber-step">
+                <i class="fas fa-fingerprint"></i>
+                <h4>1. Brand Keywords</h4>
+                <div class="cyber-data" style="color: #f59e0b;">{{ domain }}</div>
+            </div>
+            
+            <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+            
+            <div class="cyber-step">
+                <i class="fas fa-shield-halved"></i>
+                <h4>2. Protocol & Len</h4>
+                <div class="cyber-data">
+                    {% if target.startswith('https') %}HTTPS{% else %}HTTP{% endif %} | {{ length }} Chars
+                </div>
+            </div>
+            
+            <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+            
+            <div class="cyber-step">
+                <i class="fas fa-code"></i>
+                <h4>3. ASCII to Binary</h4>
+                <div class="cyber-data" style="font-size: 11px;">{{ binary[:22] }}...</div>
+            </div>
+            
+            <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+            
+            <div class="cyber-step">
+                <i class="fas fa-network-wired"></i>
+                <h4>4. UDP Transport</h4>
+                <div class="cyber-data">DNS Req (P.53)</div>
+            </div>
+            
+            <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+            
+            <div class="cyber-step">
+                <i class="fas fa-server"></i>
+                <h4>5. DNS Mapping</h4>
+                <div class="cyber-data" style="color: #ef4444;">{{ ip }}</div>
+            </div>
+            
+        </div>
+
+        <div class="verdict-box {% if result == 'FAKE' %}danger{% else %}safe{% endif %}">
+            <h2 style="margin: 0 0 10px 0; letter-spacing: 2px;">
+                VERDICT MODEL AI : {{ result }}
+            </h2>
+            <span style="font-size: 14px; font-family: sans-serif;">
+                Indice de Certitude (Probabilité) : <strong>{{ confidence }}%</strong>
+            </span>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-card">
+                <h3 style="margin-top:0; color: #ffffff;"><i class="fas fa-chart-bar"></i> Diagnostics Vectoriels</h3>
+                <div class="circle-container">
+                    <div class="circle-progress {% if result == 'FAKE' %}threat{% else %}clean{% endif %}">
+                        <div class="circle-inner">
+                            {% if result == "FAKE" %}88%<span>Risque</span>{% else %}12%<span>Risque</span>{% endif %}
+                        </div>
+                    </div>
+                </div>
+                <p style="font-size: 12px; text-align: center; color: #9ca3af;">Analyse Matricielle des 16 Features Structurelles</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 style="margin-top:0; color: #ffffff;"><i class="fas fa-shield-virus"></i> Journal d'Inspection</h3>
+                {% for v in vulnerabilities %}
+                    <div class="vuln-item {{ v.severity }}">
+                        <strong style="color: #ffffff;">{{ v.title }}</strong>
+                        <div style="font-size: 12px; color: #d1d5db; margin-top: 5px;">{{ v.desc | safe }}</div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <a href="/" class="btn-back"><i class="fas fa-arrow-left"></i> Nouveau scan</a>
+    </div>
+
+</body>
+</html>
